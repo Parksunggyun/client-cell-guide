@@ -1,7 +1,7 @@
 # Project Workflow & Convention Guide
 
 ```dart
-본 문서는 **Notion + GitHub** 협업을 위한 **클라이언트셀**의 Flutter App 개발 표준 가이드입니다. 
+본 문서는 Notion + GitHub 협업을 위한 클라이언트셀의 Flutter App 개발 표준 가이드입니다. 
 릴리즈 노트 생성(Release Drafter)이 구축되어 있으므로 아래 규칙을 준수해 주세요. 
 ```
 
@@ -38,6 +38,7 @@ Example: [Feat] TASK-102: 소셜 로그인 구현
 | `[Design]` | UI/UX 디자인 작업 |
 | `[Refactor]` | 코드 리팩토링 (기능 변경 없음) |
 | `[Chore]` | 빌드 설정, 패키지 매니저 등 기타 작업 |
+| `[Hotfix]` | 긴급 수정 |
 
 ### **🌿 Branch Naming**
 
@@ -92,6 +93,7 @@ PR 템플릿에 따라 내용을 작성하고 **Label을 부착 必**
 | `Type: Design` | 디자인 변경 | 🎨 Design & UI |
 | `Type: Refactor` | 리팩토링 | ♻️ Refactoring |
 | `Type: Docs` | 문서 작업 | 📝 Documentation |
+| `Type: Hotfix` | 긴급 수정 | 🥊 Hotfix |
 | `Area: Design` | 디자인 영역 표시 | (Type과 조합 사용) |
 
 ---
