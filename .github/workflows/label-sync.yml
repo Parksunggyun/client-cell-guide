@@ -1,0 +1,24 @@
+name: Sync Labels
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/labels.yml' # 라벨 설정 파일이 바뀔 때만 실행
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Sync Labels
+        uses: crazy-max/ghaction-github-labeler@v4
+        with:
+          # 위에서 만든 설정 파일 경로
+          yaml_file: .github/labels.yml
+          # true로 하면 설정 파일에 없는 라벨(기본 라벨 등)은 삭제합니다.
+          # 처음엔 false로 돌려보고, 필요하면 true로 바꾸세요.
+          prune: false
