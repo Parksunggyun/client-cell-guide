@@ -1,0 +1,60 @@
+# .github/labels.yml
+
+# --- Types ---
+- name: "Type: Feature"
+  color: "a2eeef"
+  description: "새로운 기능 추가 ([Feat])"
+
+- name: "Type: Bug"
+  color: "d73a4a"
+  description: "버그 수정 ([Fix])"
+
+- name: "Type: Design"
+  color: "fbca04"
+  description: "UI/UX 디자인 작업 ([Design])"
+
+- name: "Type: Refactor"
+  color: "f29513"
+  description: "코드 리팩토링 ([Refactor])"
+
+- name: "Type: Docs"
+  color: "0075ca"
+  description: "문서 작성 및 수정 ([Docs])"
+
+- name: "Type: Chore"
+  color: "c5def5"
+  description: "빌드 설정, 패키지 등 기타 작업 ([Chore])"
+
+- name: "Type: Hotfix"
+  color: "b60205"
+  description: "긴급 수정"
+
+# --- Priority ---
+- name: "P0: Urgent"
+  color: "b60205"
+  description: "최우선 순위 (당장 해결)"
+
+- name: "P1: High"
+  color: "d93f0b"
+  description: "높은 우선순위 (이번 스프린트 필수)"
+
+- name: "P2: Medium"
+  color: "0e8a16"
+  description: "일반 우선순위"
+
+- name: "P3: Low"
+  color: "c2e0c6"
+  description: "낮은 우선순위 (Time permitting)"
+
+# --- Area ---
+- name: "Area: FE"
+  color: "1d76db"
+  description: "프론트엔드 영역"
+
+- name: "Area: Design"
+  color: "bfdadc"
+  description: "디자인 영역"
+
+- name: "Area: Infra"
+  color: "5319e7"
+  description: "인프라/DevOps 영역"
